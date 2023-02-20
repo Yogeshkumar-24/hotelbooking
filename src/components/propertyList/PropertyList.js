@@ -11,7 +11,7 @@ const PropertyList = () => {
     "https://4.imimg.com/data4/BL/WA/MY-2599162/cottages-500x500.jpg",
     "https://upload.wikimedia.org/wikipedia/commons/d/df/Town_and_Country_fh000023.jpg"
   ];
-  const { data, loading, error } = useFetch("/hotels/countByType");
+  const { data, loading, error } = useFetch("https://hotel-server-production.up.railway.app/api/hotels/countByType");
     // console.log(data)
 
   return (

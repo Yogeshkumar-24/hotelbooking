@@ -22,7 +22,7 @@ const Register = () => {
         e.preventDefault();
        try {
         const response = await axios
-        .post("/auth/register", credential)
+        .post("https://hotel-server-production.up.railway.app/api/auth/register", credential)
           navigate("/login");
        
         if(response.status === 500) {

@@ -45,7 +45,7 @@ export const Header = ({type}) => {
 
   const handleSearch = () => {
     dispatch({type:"NEW_SEARCH", payload:{destination,dates,option}})
-    navigate('https://hotel-server-production.up.railway.app/api/hotels', {state : {destination,dates,option}})
+    navigate('/hotels', {state : {destination,dates,option}})
   }
 
   const {user} = useContext(AuthContext)

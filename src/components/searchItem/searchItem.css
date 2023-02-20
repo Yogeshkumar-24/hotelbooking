@@ -1,0 +1,139 @@
+.searchItem{
+    border: 1px solid lightgray;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.img{
+    width: 200px;
+    height: 200px;object-fit: cover;
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 2;
+}
+
+.details{
+    flex: 1;
+}
+
+.title{
+    font-size: 20px;
+    color: #0072c2;
+}
+
+.distance{
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.taxiOption{
+    background-color: green;
+    color: white;
+    /* text-align: center; */
+    /* border-radius: 10px;
+    font-weight: 500;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+    width: max-content;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 12px;
+
+}
+
+.subTitle{
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.cancel{
+    font-size: 14px;
+    font-weight: bold;
+    color: green;
+}
+
+.cancelSubtitle{
+    color: green;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ratings{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ratings>span{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.ratings>button{
+    border: none;
+    padding: 5px;
+    outline: none;
+    background-color: #0072c2;
+    color:white;
+    font-weight: bold;
+
+}
+
+.detailText{
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    text-align: end;
+    font-size: 20px;
+}
+
+#gst{
+    font-size: 12px;
+    font-weight: 300;
+    padding: 5px;
+}
+
+.detailTextButton{
+    font-weight: bold;
+    font-size: 14px;
+    border:none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #0072c2;
+    color: white;
+    cursor: pointer;
+    
+} 
+
+@media only screen and (max-width:420px){
+    .searchItem{
+        flex-direction: column;
+    }
+
+    .img{
+        margin: auto;
+        width: 300px;
+    }
+    .title{
+        text-align: center;
+    }
+    .detailText{
+        text-align: center;
+    }
+}

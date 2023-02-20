@@ -1,0 +1,86 @@
+.rClose{
+    cursor: pointer;
+    right: 8px;
+    top: 8px;
+    position: absolute;
+}
+
+.rClose:hover{
+    color: red;
+    transition: ease-in-out 0.2s;
+}
+
+.reserve{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.401);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+}
+
+.rContainer{
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rItem{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.rInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.rTitle{
+    font-weight: 600;
+}
+
+.rDesc{
+    font-weight: 300;
+}
+
+.rMax{
+    font-size: 12px;
+}
+
+.rPrice{
+    font-weight: 600;
+}
+
+.rButton{
+    padding: 5px 0;
+    color: white;
+    background-color: #0072c2;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.selectedRoom{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    font-size: 8px;
+    color: gray;
+}
+
+.room{
+    display: flex;
+    flex-direction: column;
+}
+

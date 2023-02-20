@@ -1,0 +1,62 @@
+.pList{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.pListItems{
+    cursor: pointer;
+    /* border-radius: 10px; */
+    overflow: hidden;
+    width: 250px;
+}
+
+.pListImg{
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.pListImage{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.pListTitle>h2{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.pListTitle>h3{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.pSubContainer{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width:420px){
+    /* .pSubContainer{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    } */
+    .pList{
+        overflow: auto;
+        flex-wrap: nowrap;
+    }
+    .pSubContainer{
+        padding: 15px 0;
+        margin: 0px 10px;
+        width: max-content;
+    }
+}

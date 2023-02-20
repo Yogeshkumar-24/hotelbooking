@@ -1,0 +1,32 @@
+.footer{
+    width: 100%;
+    max-width: 1024px;
+    font-size: 12px;
+}
+
+.fLists{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.fList{
+    list-style: none;
+    padding: 0;
+}
+
+.fListItem{
+    padding: 5px 0px;
+}
+
+@media only screen and (max-width:420px){
+  .fList{
+    font-size: 10px;
+    width: 90%;
+    margin: 0 10px;
+  }
+  .fText{
+    text-align: center;
+  }
+}

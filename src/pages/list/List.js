@@ -38,7 +38,7 @@ const List = () => {
             <h1 className="listTitle">Search</h1>
             <div className="listItem">
               <label>Destination</label>
-              <input onChange={e=> setDestination(e.target.value.toLowerCase())} type="text" placeholder={destination} />
+              <input onChange={e=> setDestination(e.target.value.toLocaleLowerCase())} type="text" placeholder={destination} />
             </div>
             <div className="listItem">
               <label>Check-In Date</label>

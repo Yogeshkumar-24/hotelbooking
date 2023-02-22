@@ -87,9 +87,7 @@ export const Header = ({type}) => {
               type="text"
               placeholder="Enter Place"
               className="headerSearchInput"
-              onChange={(e) => setDestination(() => {
-                e.target.value = e.target.value.toLowerCase()
-              })}
+              onChange={(e) => setDestination(e.target.value.toLocaleLowerCase())}
             />
           </div>
           <div className="headerSearchItem">

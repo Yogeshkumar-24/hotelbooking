@@ -4,7 +4,7 @@ import "./featured.css";
 import {CircularProgress} from "@mui/material"
 const Featured = () => {
 
-  const {data,loading,error} = useFetch("https://hotel-server-production.up.railway.app/api/hotels/countByCity?cities=karur,coimbatore,trichy")
+  const {data,loading,error} = useFetch("https://hotel-server-vpv3.onrender.com/api/hotels/countByCity?cities=karur,coimbatore,trichy")
  
   
  

@@ -29,7 +29,7 @@ const Hotel = () => {
   const id = location.pathname.split('/')[2]
 
   
-  const {data,loading} = useFetch(`https://hotel-server-production.up.railway.app/api/hotels/find/${id}`)
+  const {data,loading} = useFetch(`https://hotel-server-vpv3.onrender.com/api/hotels/find/${id}`)
 
   const {dates,option} = useContext(SearchContext)
 

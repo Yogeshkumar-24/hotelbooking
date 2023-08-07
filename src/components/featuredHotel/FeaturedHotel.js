@@ -6,7 +6,7 @@ import { CircularProgress } from "@mui/material";
 
 const FeaturedHotel = () => {
   const { data, loading } = useFetch(
-    "https://hotel-server-production.up.railway.app/api/hotels?featured=true"
+    "https://hotel-server-vpv3.onrender.com/api/hotels?featured=true"
   );
 
 
